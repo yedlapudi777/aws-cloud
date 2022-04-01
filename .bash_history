@@ -47,3 +47,18 @@ git remote add origin https://github.com/yedlapudi777/aws-cloud.git
 git push -u origin master
 clear
 sudo -i
+git branch
+ls
+git branch slave
+git branch
+git checkout slave
+git branch
+touch file-4
+touch file-5
+touch file-6
+git add .
+git commit -m"branch commits"
+git push -u origin slave
+git log
+git push -u origin slave
+clear
